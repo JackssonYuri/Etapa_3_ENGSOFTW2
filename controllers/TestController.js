@@ -1,10 +1,10 @@
-// index, show, store, udpdate , destroy
+// store, udpdate , destroy
 module.exports = {
      async show(req, res)
     {
       const users = [
-       {name: 'Jones', email: 'jones@gmail.com'}
+       {name: 'Jones', cpf: '06622322298'}
       ]
-        return res.json(users);
+        return res.json(cliente);
     }
 };
