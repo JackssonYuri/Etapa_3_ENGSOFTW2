@@ -1,4 +1,4 @@
-// store, udpdate , destroy
+// store, index, udpdate
 module.exports = {
      async show(req, res)
     {
